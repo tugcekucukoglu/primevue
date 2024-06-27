@@ -28,6 +28,7 @@
         "build:themes": "pnpm --filter themes build",
         "build:icons": "pnpm --filter icons build",
         "build:showcase": "pnpm --filter showcase build:prebuild",
+        "build:apidoc": "node packages/primevue/scripts/build-apidoc.js && node packages/themes/scripts/build-tokens.js && node packages/themes/scripts/build-apidoc.js",
         "dev": "pnpm --filter showcase dev",
         "module:dev": "pnpm --filter @primevue/nuxt-module dev",
         "security:check": "pnpm audit --prod --audit-level high",
