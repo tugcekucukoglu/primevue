@@ -30,17 +30,5 @@ export interface InputGroupDesignTokens extends ColorSchemeDesignToken<InputGrou
     * @designToken inputgroup.addon.border.color
     */
     borderColor?: string;
-    /**
-    * Color of addon
-    *
-    * @designToken inputgroup.addon.color
-    */
-    color?: string;
-    /**
-    * Border radius of addon
-    *
-    * @designToken inputgroup.addon.border.radius
-    */
-    borderRadius?: string;
     }
 }
