@@ -1,0 +1,25 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "name": "TypeDoc Example",
+    "entryPoints": ["./packages"],
+    "sort": ["source-order"],
+    "categorizeByGroup": false,
+    "searchCategoryBoosts": {
+        "Component": 2,
+        "Model": 1.2
+    },
+    "searchGroupBoosts": {
+        "Classes": 1.5
+    },
+    "navigationLinks": {
+        "Docs": "https://typedoc.org/guides/overview",
+        "GitHub": "https://github.com/TypeStrong/typedoc"
+    },
+    "sidebarLinks": {
+        "API": "https://typedoc.org/api"
+    },
+    "highlightLanguages": ["typescript", "tsx", "css", "json", "jsonc", "python", "yaml"],
+    "markdownItOptions": {
+        "html": true
+    }
+}

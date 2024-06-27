@@ -25,7 +25,15 @@ export enum DataViewClasses {
     /**
      * Class name of the content element
      */
-    content = 'p-dataview-content'
+    content = 'p-dataview-content',
+    /**
+     * Class name of the empty message element
+     */
+    emptyMessage = 'p-dataview-empty-message', // TODO: remove?
+    /**
+     * Class name of the footer element
+     */
+    footer = 'p-dataview-footer'
 }
 
 export interface DataViewStyle extends BaseStyle {}
