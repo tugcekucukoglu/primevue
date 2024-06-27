@@ -315,8 +315,9 @@
     },
     "scripts": {
         "build": "NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
-        "build:package": "pnpm run build:prebuild && pnpm run build:api && rollup -c && pnpm run build:postbuild",
+        "build:package": "pnpm run build:prebuild && pnpm run build:api && pnpm run build:apidoc && rollup -c && pnpm run build:postbuild",
         "build:api": "node ./scripts/build-api.js",
+        "build:apidoc": "node ./scripts/build-apidoc.js",
         "build:prebuild": "node ./scripts/prebuild.mjs",
         "build:postbuild": "node ./scripts/postbuild.mjs",
         "dev:link": "pnpm link --global && npm link"

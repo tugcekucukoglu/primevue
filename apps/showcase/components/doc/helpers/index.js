@@ -1,4 +1,5 @@
 import APIDocs from '@/doc/common/apidoc/index.json';
+import APITokensDocs from '@/doc/common/apidoc/tokens/index.json';
 import { $dt } from '@primevue/themes';
 
 export const getPTOptions = (name) => {
@@ -54,7 +55,7 @@ export const getStyleOptions = (name) => {
 };
 
 export const getTokenOptions = (name) => {
-    const values = APIDocs[`themes/${name.toLowerCase()}`]?.tokens?.values;
+    const values = APITokensDocs[`themes/${name.toLowerCase()}`]?.tokens?.values;
     let data = [];
 
     for (const [key, value] of Object.entries(values || {})) {
