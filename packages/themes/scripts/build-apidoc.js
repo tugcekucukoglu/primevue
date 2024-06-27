@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 const rootDir = path.resolve(__dirname, '../');
-const outputPath = path.resolve(rootDir, '../../apps/showcase/doc/common/apidoc/themes');
+const outputPath = path.resolve(rootDir, '../../apps/showcase/doc/common/apidoc');
 
 const staticMessages = {
     methods: "Defines methods that can be accessed by the component's reference.",
