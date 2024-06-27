@@ -16,5 +16,5 @@
         "incremental": true
     },
     "include": ["packages/primevue", "packages/themes"],
-    "exclude": ["node_modules", "**/node_modules", "dist", "packages/nuxt-module/", "packages/metadata/"]
+    "exclude": ["node_modules", "**/node_modules", "**/dist"]
 }
