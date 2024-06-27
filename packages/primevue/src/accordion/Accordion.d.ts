@@ -115,6 +115,25 @@ export interface AccordionState {
  */
 export interface AccordionProps {
     /**
+     * Index of the active tab or an array of indexes in multiple mode.
+     * @defaultValue null
+     * @deprecated since v4. Use value property instead.
+     */
+    activeIndex?: number | number[] | null | undefined;
+    /**
+     * When enabled, hidden tabs are not rendered at all. Defaults to false that hides tabs with css.
+     * @defaultValue false
+     */
+    lazy?: boolean | undefined;
+    /**
+     * Icon of a collapsed tab.
+     */
+    expandIcon?: string | undefined;
+    /**
+     * Icon of an expanded tab.
+     */
+    collapseIcon?: string | undefined;
+    /**
      * Index of the element in tabbing order.
      * @defaultValue 0
      */

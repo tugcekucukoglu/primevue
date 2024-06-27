@@ -11,6 +11,18 @@ import type { BaseStyle } from '@primevue/core/base/style';
 
 export enum PasswordClasses {
     /**
+     * Class name of the root element
+     */
+    root = 'p-password',
+    /**
+     * Class name of the pt input element
+     */
+    pcInput = 'p-password-input',
+    /**
+     * Class name of the mask icon element
+     */
+    maskIcon = 'p-password-mask-icon',
+    /**
      * Class name of the unmask icon element
      */
     unmaskIcon = 'p-password-unmask-icon',
