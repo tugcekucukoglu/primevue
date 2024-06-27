@@ -18,21 +18,6 @@ export default {
         borderRadius: '{content.border.radius}',
         padding: '{navigation.item.padding}'
     },
-    item: {
-        focusBackground: '{navigation.item.focus.background}',
-        activeBackground: '{navigation.item.active.background}',
-        color: '{navigation.item.color}',
-        focusColor: '{navigation.item.focus.color}',
-        activeColor: '{navigation.item.active.color}',
-        padding: '{navigation.item.padding}',
-        borderRadius: '{navigation.item.border.radius}',
-        gap: '{navigation.item.gap}',
-        icon: {
-            color: '{navigation.item.icon.color}',
-            focusColor: '{navigation.item.icon.focus.color}',
-            activeColor: '{navigation.item.icon.active.color}'
-        }
-    },
     overlay: {
         padding: '0',
         background: '{content.background}',
