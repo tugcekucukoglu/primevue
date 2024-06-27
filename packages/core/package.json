@@ -1,6 +1,6 @@
 {
     "name": "@primevue/core",
-    "version": "4.0.0-rc.2",
+    "version": "4.0.0-rc.3",
     "author": "PrimeTek Informatics",
     "description": "",
     "homepage": "https://primevue.org/",
@@ -31,6 +31,10 @@
         "main": "./index.mjs",
         "types": "./index.d.ts",
         "exports": {
+            ".": {
+                "types": "./index.d.ts",
+                "import": "./index.mjs"
+            },
             "./*": {
                 "types": "./*/index.d.ts",
                 "import": "./*/index.mjs"
@@ -48,10 +52,11 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/styled": "^0.0.1"
+        "@primeuix/styled": "^0.0.5"
     },
     "peerDependencies": {
-        "vue": "^3.0.0"
+        "vue": "^3.0.0",
+        "@primeuix/utils": "^0.0.5"
     },
     "engines": {
         "node": ">=12.11.0"

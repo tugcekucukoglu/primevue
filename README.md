@@ -25,5 +25,3 @@ PrimeVue is a rich set of open source UI Components for Vue. See [PrimeVue homep
 <a href="https://github.com/primefaces/primevue/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=primefaces/primevue" />
 </a>
-
-

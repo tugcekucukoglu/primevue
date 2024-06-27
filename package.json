@@ -1,6 +1,6 @@
 {
     "name": "@primevue/monorepo",
-    "version": "4.0.0-rc.2",
+    "version": "4.0.0-rc.3",
     "author": "PrimeTek Informatics",
     "homepage": "https://primevue.org/",
     "repository": {
@@ -37,6 +37,7 @@
         "lint:fix": "eslint --fix --ext \".vue,.js,.mjs,.ts\" --ignore-path .gitignore ."
     },
     "devDependencies": {
+        "@babel/eslint-parser": "^7.18.9",
         "@babel/preset-env": "^7.21.5",
         "@rollup/plugin-babel": "^6.0.3",
         "@rollup/plugin-alias": "^5.1.0",
