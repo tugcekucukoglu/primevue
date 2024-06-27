@@ -19,13 +19,6 @@ export default {
         hoverBackground: '{content.background}',
         activeBackground: '{content.background}',
         activeHoverBackground: '{content.background}',
-        focusRing: {
-            width: '{focus.ring.width}',
-            style: '{focus.ring.style}',
-            color: '{focus.ring.color}',
-            offset: '{focus.ring.offset}',
-            shadow: '{focus.ring.shadow}'
-        },
         toggleIcon: {
             color: '{text.muted.color}',
             hoverColor: '{text.color}',

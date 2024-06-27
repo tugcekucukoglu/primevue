@@ -115,16 +115,6 @@ export interface AccordionState {
  */
 export interface AccordionProps {
     /**
-     * Value of the active panel or an array of values in multiple mode.
-     * @defaultValue null
-     */
-    value?: string | string[] | null | undefined;
-    /**
-     * When enabled, multiple tabs can be activated at the same time.
-     * @defaultValue false
-     */
-    multiple?: boolean | undefined;
-    /**
      * Index of the active tab or an array of indexes in multiple mode.
      * @defaultValue null
      * @deprecated since v4. Use value property instead.
