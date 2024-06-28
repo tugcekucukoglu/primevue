@@ -7,9 +7,10 @@
  * @module inputmask
  *
  */
-import type { DefineComponent, DesignToken, EmitFn, GlobalComponentConstructor } from '@primevue/core';
+import type { DefineComponent, DesignToken, EmitFn, GlobalComponentConstructor, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
 import type { InputTextPassThroughOptions } from 'primevue/inputtext';
+import type { PassThroughOptions } from 'primevue/passthrough';
 
 export declare type InputMaskPassThroughOptionType = InputMaskPassThroughAttributes | ((options: InputMaskPassThroughMethodOptions) => InputMaskPassThroughAttributes | string) | string | null | undefined;
 
@@ -152,6 +153,16 @@ export interface InputMaskProps {
      * It generates scoped CSS variables using design tokens for the component.
      */
     dt?: DesignToken<any>;
+    /**
+     * Used to pass attributes to DOM elements inside the component.
+     * @type {InputMaskPassThroughOptions}
+     */
+    pt?: PassThrough<InputMaskPassThroughOptions>;
+    /**
+     * Used to configure passthrough(pt) options of the component.
+     * @type {PassThroughOptions}
+     */
+    ptOptions?: PassThroughOptions;
     /**
      * When enabled, it removes component related styles in the core.
      * @defaultValue false
